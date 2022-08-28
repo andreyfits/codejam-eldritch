@@ -1,0 +1,45 @@
+{
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "ecmaFeatures": {
+      "globalReturn": false
+    },
+    "requireConfigFile": false
+  },
+  "env": {
+    "jquery": true,
+    "es6": true
+  },
+  "overrides": [
+    {
+      "files": [
+        "src/**/*.js"
+      ],
+      "extends": [
+        "jquery",
+        "standard"
+      ],
+      "rules": {
+        "indent": [
+          "error",
+          4
+        ],
+        "semi": [
+          "error",
+          "always"
+        ],
+        "quotes": [
+          "error",
+          "single"
+        ],
+        "no-console": "off",
+        "max-len": "off",
+        "prefer-const": "off",
+        "no-new": "off",
+        "space-before-function-paren": "off"
+      }
+    }
+  ]
+}
