@@ -21,27 +21,27 @@ import brown20 from './brown20.png';
 import brown21 from './brown21.png';
 
 const cards = {
-  brown1,
-  brown2,
-  brown3,
-  brown4,
-  brown5,
-  brown6,
-  brown7,
-  brown8,
-  brown9,
-  brown10,
-  brown11,
-  brown12,
-  brown13,
-  brown14,
-  brown15,
-  brown16,
-  brown17,
-  brown18,
-  brown19,
-  brown20,
-  brown21,
-}
+    brown1,
+    brown2,
+    brown3,
+    brown4,
+    brown5,
+    brown6,
+    brown7,
+    brown8,
+    brown9,
+    brown10,
+    brown11,
+    brown12,
+    brown13,
+    brown14,
+    brown15,
+    brown16,
+    brown17,
+    brown18,
+    brown19,
+    brown20,
+    brown21
+};
 
-export default cards
+export default cards;

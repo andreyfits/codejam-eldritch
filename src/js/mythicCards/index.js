@@ -3,7 +3,7 @@ import blueCards from './blue';
 import greenCards from './green';
 
 export {
-  brownCards,
-  blueCards,
-  greenCards
-}
+    brownCards,
+    blueCards,
+    greenCards
+};
