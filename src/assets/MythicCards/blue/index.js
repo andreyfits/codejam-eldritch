@@ -12,18 +12,18 @@ import blue11 from './blue11.png';
 import blue12 from './blue12.png';
 
 const cards = {
-  blue1,
-  blue2,
-  blue3,
-  blue4,
-  blue5,
-  blue6,
-  blue7,
-  blue8,
-  blue9,
-  blue10,
-  blue11,
-  blue12,
-}
+    blue1,
+    blue2,
+    blue3,
+    blue4,
+    blue5,
+    blue6,
+    blue7,
+    blue8,
+    blue9,
+    blue10,
+    blue11,
+    blue12
+};
 
-export default cards
+export default cards;

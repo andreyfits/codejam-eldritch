@@ -18,24 +18,24 @@ import green17 from './green17.png';
 import green18 from './green18.png';
 
 const cards = {
-  green1,
-  green2,
-  green3,
-  green4,
-  green5,
-  green6,
-  green7,
-  green8,
-  green9,
-  green10,
-  green11,
-  green12,
-  green13,
-  green14,
-  green15,
-  green16,
-  green17,
-  green18,
+    green1,
+    green2,
+    green3,
+    green4,
+    green5,
+    green6,
+    green7,
+    green8,
+    green9,
+    green10,
+    green11,
+    green12,
+    green13,
+    green14,
+    green15,
+    green16,
+    green17,
+    green18
 };
 
 export default cards;
