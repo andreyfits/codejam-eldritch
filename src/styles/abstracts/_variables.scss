@@ -1,18 +1,36 @@
 // fonts
-$font-main: "Aleo", sans-serif;
+$font: "Aleo", sans-serif;
 
 // font-colors
 $font-color-white: #ffffff;
 $font-color-red-intense: rgb(255 0 0 / 85%);
+$font-color-red-dim: rgb(255 0 0 / 50%);
+$font-color-red-dark: rgb(255 0 0 / 30%);
 
 // background colors
 $background-color-white: #ffffff;
 $background-color-black-intense: rgb(0 0 0 / 85%);
+$background-color-black-dim: rgb(0 0 0 / 50%);
+$background-color-black-dark: rgb(0 0 0 / 30%);
+$background-color-red-intense: rgb(255 0 0 / 85%);
+$background-color-red-dim: rgb(255 0 0 / 50%);
+$background-color-red-dark: rgb(255 0 0 / 30%);
+$background-color-green: rgb(61 103 21 / 75%);
+$background-color-blue: rgb(84 104 182 / 75%);
+$background-color-yellow: rgb(180 137 12 / 75%);
 
 // border-color
 $border-color-white: #ffffff;
+$border-color-red-intense: rgb(255 0 0 / 85%);
+$border-color-red-dim: rgb(255 0 0 / 50%);
+$border-color-red-dark: rgb(255 0 0 / 30%);
 
 // box-shadow
+$box-shadow-white: #ffffff;
+$box-shadow-red-intense: rgb(255 0 0 / 85%);
+$box-shadow-red-dim: rgb(255 0 0 / 50%);
+$box-shadow-red-dark: rgb(255 0 0 / 30%);
+$box-shadow-violet: rgb(68 20 107);
 
 // transition
 $transition-fast: 0.4s linear;

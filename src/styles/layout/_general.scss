@@ -4,21 +4,224 @@
     padding: 0;
 }
 
-.container {
-    max-width: 1920px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
 body {
     min-width: 320px;
     display: flex;
     flex-direction: column;
+    font-family: $font;
     background: url("../assets/home.png") no-repeat fixed center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     overflow-x: hidden;
     color: $font-color-white;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $background-color-black-dark;
+    transition: $transition-fast;
+}
+
+.ancients,
+.decks {
+    height: 40%;
+    border-radius: 20px;
+}
+
+.difficulties {
+    height: 10%;
+    font-size: 20px;
+    color: $font-color-white;
+    border-radius: 20px;
+}
+
+.ancient {
+    height: 90%;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transition: $transition-fast;
+}
+
+.ancient:hover {
+    transform: translateY(50px) scale(1.25);
+}
+
+.ancient:active {
+    transform: translateY(50px) scale(1.25);
+    box-shadow: 0 0 9px 6px $font-color-red-dim;
+}
+
+.difficulty {
+    padding: 8px 14px;
+    border-radius: 20px;
+    box-shadow: 0 0 6px 0 $box-shadow-white;
+    transition: $transition-fast;
+    cursor: pointer;
+}
+
+.difficulty:hover {
+    box-shadow: 0 0 8px 4px $box-shadow-red-dark;
+}
+
+.difficulty:active {
+    transform: scale(1.03);
+    background-color: $background-color-red-dark;
+    box-shadow: 0 0 9px 6px $box-shadow-red-dim;
+}
+
+.active {
+    background-color: $background-color-red-dark;
+    box-shadow: 0 0 9px 6px $background-color-red-dim;
+}
+
+.shuffle {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shuffle-btn {
+    width: 270px;
+    height: 50px;
+    font-size: 24px;
+    color: $font-color-white;
+    background-color: $background-color-black-dark;
+    border: 2px solid $border-color-red-intense;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: $transition-fast;
+}
+
+.shuffle-btn:hover {
+    background-color: $background-color-black-dim;
+    color: $font-color-red-intense;
+}
+
+.shuffle-btn:active {
+    transform: scale(1.04);
+}
+
+.decks {
+    padding: 0 60px;
+    justify-content: space-between;
+    transition: $transition-fast;
+}
+
+.hidden {
+    opacity: 0;
+    display: none;
+}
+
+.current-state,
+.current-deck {
+    height: 90%;
+}
+
+.current-deck {
+    width: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deck,
+.last-card {
+    height: 100%;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: $transition-fast;
+    cursor: pointer;
+}
+
+.deck {
+    background-image: url("../assets/mythicCardBackground.png");
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.deck:hover {
+    box-shadow: 0 0 9px 5px $box-shadow-violet;
+}
+
+.deck:active {
+    transform: scale(1.04);
+}
+
+.last-card:hover {
+    transform: translateY(-50px) scale(1.25);
+}
+
+.current-state {
+    width: 375px;
+    padding: 40px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.stage {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $font-color-white;
+}
+
+.stage-wrapper {
+    width: 25%;
+    text-align: right;
+}
+
+.stage-title {
+    font-size: 18px;
+}
+
+.deck-count {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: $font-color-white;
+}
+
+.count {
+    width: 65px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.green {
+    background-color: $background-color-green;
+}
+
+.yellow {
+    background-color: $background-color-yellow;
+}
+
+.blue {
+    background-color: $background-color-blue;
 }
